@@ -45,7 +45,7 @@ class CRUD {
     res.json(response);
   }
   async create (req, res) {
-    const { payload } = req.body || {};
+    const { payload = {} } = req.body;
     let response = { success: true };
 
     try {
@@ -60,7 +60,7 @@ class CRUD {
     res.json(response);
   }
   async update (req, res) {
-    const { payload } = req.body || {};
+    const { payload = {} } = req.body;
     const { id: _id } = payload;
     let response = { success: true };
 

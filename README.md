@@ -1,2 +1,6 @@
-# nodejs-api
-Just for testing
+# API on nodejs
+
+Run 
+yarn install
+yarn dev or yarn start
+
