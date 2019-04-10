@@ -1,0 +1,21 @@
+{
+  "name": "api_server",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.0",
+    "nodemon": "^1.18.11",
+    "slug": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
